@@ -42,23 +42,41 @@ public class Main {
 //         System.out.println(point2);
 //     }
 
-    public static void main(String[] args) {
-// ****** String
-//        String message = new String("Hello World");
-        String message = "Hello World" + " !!";
-        String message2 = "   Hello World 2" + " !!  ";
+//    public static void main(String[] args) {
+//// ****** String
+////        String message = new String("Hello World");
+//        String message = "Hello World" + " !!";
+//        String message2 = "   Hello World 2" + " !!  ";
+////        System.out.println(message);
+//        System.out.println(message.startsWith("!!"));
+//        System.out.println(message.endsWith("!!"));
+//        System.out.println(message.length());
+//        System.out.println(message.indexOf("H"));
+//        System.out.println(message.indexOf("e"));
+//        System.out.println(message.indexOf("sky"));
+//        System.out.println(message.replace("!", "*"));
+//        System.out.println(message.toLowerCase());
+//        System.out.println(message.toUpperCase());
+//        System.out.println(message2.trim());
 //        System.out.println(message);
-        System.out.println(message.startsWith("!!"));
-        System.out.println(message.endsWith("!!"));
-        System.out.println(message.length());
-        System.out.println(message.indexOf("H"));
-        System.out.println(message.indexOf("e"));
-        System.out.println(message.indexOf("sky"));
-        System.out.println(message.replace("!", "*"));
-        System.out.println(message.toLowerCase());
-        System.out.println(message.toUpperCase());
-        System.out.println(message2.trim());
+//        System.out.println(message2);
+//    }
+
+    public static void main(String[] args) {
+// ****** Escape Sequences
+        String message = "Hello \"Kosh\"";
         System.out.println(message);
+
+//        c:windows\....
+        String message2 = "c:\\windows\\....";
         System.out.println(message2);
+
+//        line break
+        String message3 = "Jumpi \nlahiri";
+        System.out.println(message3);
+
+//      Tab
+        String message4 = "Jumpi \tlahiri";
+        System.out.println(message4);
     }
 }
