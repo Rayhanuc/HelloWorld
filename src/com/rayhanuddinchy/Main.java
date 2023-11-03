@@ -28,16 +28,37 @@ public class Main {
 
 
 //    }
-     public static void main(String[] args) {
-// ****** Primitive Types vs Reference Types
-//         byte x = 1;
-//         byte y = x;
-//         x = 2;
-//         System.out.println(y);
 
-         Point point1 = new Point(1, 1);
-         Point point2 = point1;
-         point1.x = 2;
-         System.out.println(point2);
-     }
+//     public static void main(String[] args) {
+//// ****** Primitive Types vs Reference Types
+////         byte x = 1;
+////         byte y = x;
+////         x = 2;
+////         System.out.println(y);
+//
+//         Point point1 = new Point(1, 1);
+//         Point point2 = point1;
+//         point1.x = 2;
+//         System.out.println(point2);
+//     }
+
+    public static void main(String[] args) {
+// ****** String
+//        String message = new String("Hello World");
+        String message = "Hello World" + " !!";
+        String message2 = "   Hello World 2" + " !!  ";
+//        System.out.println(message);
+        System.out.println(message.startsWith("!!"));
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("H"));
+        System.out.println(message.indexOf("e"));
+        System.out.println(message.indexOf("sky"));
+        System.out.println(message.replace("!", "*"));
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
+        System.out.println(message2.trim());
+        System.out.println(message);
+        System.out.println(message2);
+    }
 }
