@@ -1,6 +1,8 @@
 package com.rayhanuddinchy;
 
 import java.awt.*;
+import java.sql.Array;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -62,21 +64,39 @@ public class Main {
 //        System.out.println(message2);
 //    }
 
+//    public static void main(String[] args) {
+//// ****** Escape Sequences
+//        String message = "Hello \"Kosh\"";
+//        System.out.println(message);
+//
+////        c:windows\....
+//        String message2 = "c:\\windows\\....";
+//        System.out.println(message2);
+//
+////        line break
+//        String message3 = "Jumpi \nlahiri";
+//        System.out.println(message3);
+//
+////      Tab
+//        String message4 = "Jumpi \tlahiri";
+//        System.out.println(message4);
+//    }
+
+
+
     public static void main(String[] args) {
-// ****** Escape Sequences
-        String message = "Hello \"Kosh\"";
-        System.out.println(message);
-
-//        c:windows\....
-        String message2 = "c:\\windows\\....";
-        System.out.println(message2);
-
-//        line break
-        String message3 = "Jumpi \nlahiri";
-        System.out.println(message3);
-
-//      Tab
-        String message4 = "Jumpi \tlahiri";
-        System.out.println(message4);
+// ****** Array
+//    int[] numbers = new int[5];
+//        numbers[0] = 1;
+//        numbers[1] = 2;
+//        numbers[2] = 3;
+//        numbers[3] = 4;
+////        Arrays.toString(numbers);
+//        System.out.println(Arrays.toString(numbers));
+//    }
+      int[] numbers = {2, 3, 5, 1, 4 };
+        System.out.println(numbers.length);
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
     }
 }
