@@ -112,23 +112,28 @@ public class Main {
 //        final float PI = 3.14F;
 //    }
 
+//    public static void main(String[] args) {
+//// ****** Arithmetic Expressions
+////        int result = 10 + 3;
+////        int result = 10 - 3;
+////        int result = 10 * 3;
+////        int result = 10 / 3;
+////        double result = (double)10 / (double) 3;
+////        System.out.println(result);
+//        int x = 1;
+////        x = x + 2;
+//        x += 2;
+////        x -= 2;
+////        x *= 2;
+////        x /= 2;
+//        System.out.println(x);
+//    }
+
     public static void main(String[] args) {
-// ****** Arithmetic Expressions
-//        int result = 10 + 3;
-//        int result = 10 - 3;
-//        int result = 10 * 3;
-//        int result = 10 / 3;
-//        double result = (double)10 / (double) 3;
-//        System.out.println(result);
-        int x = 1;
-//        x = x + 2;
-        x += 2;
-//        x -= 2;
-//        x *= 2;
-//        x /= 2;
+// ****** Order of Operations
+//        int x = 10 + 3 * 2;
+        int x = (10 + 3) * 2;
         System.out.println(x);
     }
-
-
 
 }
