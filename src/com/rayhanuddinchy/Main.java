@@ -84,19 +84,40 @@ public class Main {
 
 
 
-    public static void main(String[] args) {
-// ****** Array
+//    public static void main(String[] args) {
+//// ****** Array
 //    int[] numbers = new int[5];
 //        numbers[0] = 1;
 //        numbers[1] = 2;
 //        numbers[2] = 3;
 //        numbers[3] = 4;
-////        Arrays.toString(numbers);
+//        Arrays.toString(numbers);
 //        System.out.println(Arrays.toString(numbers));
 //    }
-      int[] numbers = {2, 3, 5, 1, 4 };
-        System.out.println(numbers.length);
-        Arrays.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
-    }
+//      int[] numbers = {2, 3, 5, 1, 4 };
+//        System.out.println(numbers.length);
+//        Arrays.sort(numbers);
+//        System.out.println(Arrays.toString(numbers));
+//    }
+
+
+//    public static void main(String[] args) {
+//// ****** Multi-Dimensional Arrays
+//    int[][] numbers = {{1, 2, 3}, { 4, 5, 6 }};
+//    System.out.println(Arrays.deepToString(numbers));
+//    }
+
+//    public static void main(String[] args) {
+//// ****** Constants
+//        final float PI = 3.14F;
+//    }
+
+//    public static void main(String[] args) {
+//// ****** Arithmetic Expressions
+//        int result = 10 + 3;
+//        System.out.println(result);
+//    }
+
+
+
 }
