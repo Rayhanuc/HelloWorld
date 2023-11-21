@@ -136,32 +136,45 @@ public class Main {
 //        System.out.println(x);
 //    }
 
+//    public static void main(String[] args) {
+//// ****** Casting
+//// ****** Implicit Casting / automatic casting
+//// ****** byte -> short -> int -> long -> float -> double
+//    short x = 1;
+//    int y = x + 2;
+//    System.out.println(y);
+//
+//    double a = 1;
+//    double b = a + 2; // 2.0
+//    System.out.println(b);
+//
+//    double c = 1;
+//    int d = (int)c + 2;
+//    System.out.println(d);
+//
+//    String e = "1";
+////    Integer.parseInt() // int
+////    Short.parseShort(); // int
+////    Float.parseFloat(); // int
+//        int f = Integer.parseInt(e)+ 2;
+//        System.out.println(f);
+//
+//    String g = "1.1";
+//    double h = Double.parseDouble(g)+ 2;
+//    System.out.println(h);
+//    }
+
+
     public static void main(String[] args) {
-// ****** Casting
-// ****** Implicit Casting / automatic casting
-// ****** byte -> short -> int -> long -> float -> double
-    short x = 1;
-    int y = x + 2;
-    System.out.println(y);
-
-    double a = 1;
-    double b = a + 2; // 2.0
-    System.out.println(b);
-
-    double c = 1;
-    int d = (int)c + 2;
-    System.out.println(d);
-
-    String e = "1";
-//    Integer.parseInt() // int
-//    Short.parseShort(); // int
-//    Float.parseFloat(); // int
-        int f = Integer.parseInt(e)+ 2;
-        System.out.println(f);
-
-    String g = "1.1";
-    double h = Double.parseDouble(g)+ 2;
-    System.out.println(h);
+// ****** The Math Class
+//    int result = Math.round(1.1F);
+//    int result = (int)Math.ceil(1.1F);
+//    int result = (int)Math.floor(1.1F);
+//    int result = Math.max(1, 2);
+//    int result = Math.min(1, 2);
+//    double result = Math.round(Math.random() * 100);
+    int result = (int) (Math.random() * 100);
+    System.out.println(result);
     }
 
 
