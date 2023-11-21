@@ -2,6 +2,7 @@ package com.rayhanuddinchy;
 
 import java.awt.*;
 import java.sql.Array;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -165,16 +166,25 @@ public class Main {
 //    }
 
 
+//    public static void main(String[] args) {
+//// ****** The Math Class
+////    int result = Math.round(1.1F);
+////    int result = (int)Math.ceil(1.1F);
+////    int result = (int)Math.floor(1.1F);
+////    int result = Math.max(1, 2);
+////    int result = Math.min(1, 2);
+////    double result = Math.round(Math.random() * 100);
+//    int result = (int) (Math.random() * 100);
+//    System.out.println(result);
+//    }
+
+
     public static void main(String[] args) {
-// ****** The Math Class
-//    int result = Math.round(1.1F);
-//    int result = (int)Math.ceil(1.1F);
-//    int result = (int)Math.floor(1.1F);
-//    int result = Math.max(1, 2);
-//    int result = Math.min(1, 2);
-//    double result = Math.round(Math.random() * 100);
-    int result = (int) (Math.random() * 100);
-    System.out.println(result);
+// ****** Formatting Numbers
+//        NumberFormat currency = NumberFormat.getCurrencyInstance();
+//        NumberFormat percent = NumberFormat.getPercentInstance();
+        String result = NumberFormat.getPercentInstance().format(0.1);;
+        System.out.println(result);
     }
 
 
