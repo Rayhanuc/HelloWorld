@@ -5,6 +5,7 @@ import java.sql.Array;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
 //    public static void main(String[] args) {
@@ -179,14 +180,19 @@ public class Main {
 //    }
 
 
+//    public static void main(String[] args) {
+//// ****** Formatting Numbers
+////        NumberFormat currency = NumberFormat.getCurrencyInstance();
+////        NumberFormat percent = NumberFormat.getPercentInstance();
+//        String result = NumberFormat.getPercentInstance().format(0.1);;
+//        System.out.println(result);
+//    }
+
     public static void main(String[] args) {
-// ****** Formatting Numbers
-//        NumberFormat currency = NumberFormat.getCurrencyInstance();
-//        NumberFormat percent = NumberFormat.getPercentInstance();
-        String result = NumberFormat.getPercentInstance().format(0.1);;
-        System.out.println(result);
+// ****** Reading Input
+    Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+    String name = scanner.nextLine().trim();
+        System.out.println("You are " + name);
     }
-
-
-
 }
