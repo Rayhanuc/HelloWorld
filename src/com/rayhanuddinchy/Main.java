@@ -271,17 +271,32 @@ public class Main {
 //            System.out.println("Cold day");//
 //    }
 
-    public static void main(String[] args) {
-// ****** Simplifying If Statements
+//    public static void main(String[] args) {
+//// ****** Simplifying If Statements
+////        int income = 120_000;
+////        boolean hasHighIncome = false;
+////        if (income > 100_000)
+////           hasHighIncome = true;
+////        System.out.println(hasHighIncome);
+//
 //        int income = 120_000;
-//        boolean hasHighIncome = false;
-//        if (income > 100_000)
-//           hasHighIncome = true;
+//        boolean hasHighIncome = (income > 100_000);
 //        System.out.println(hasHighIncome);
+//    }
 
+    public static void main(String[] args) {
+// ****** The Ternary Operator
+//        Example 1
+//    int income = 120_000;
+//    String className;
+//    if (income > 100_000)
+//        className = "Fist class";
+//    else
+//        className = "Economy";
+//    }
+
+//  Example 2
         int income = 120_000;
-        boolean hasHighIncome = (income > 100_000);
-        System.out.println(hasHighIncome);
+        String className = income > 100_000 ? "First" : "Economy";
     }
-
 }
