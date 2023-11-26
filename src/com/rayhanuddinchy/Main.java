@@ -248,30 +248,40 @@ public class Main {
 //        System.out.println(isEligible);
 //    }
 
+//    public static void main(String[] args) {
+//// ****** If Statements
+//     int temp = 32;
+//     if (temp > 30) {
+//         System.out.println("It's a hot day");
+//         System.out.println("Drink water");
+//     } else if(temp > 20) {
+//         System.out.println("Beautiful day");
+//     } else {
+//         System.out.println("Cold day");
+//     }
+//
+//    int temp2 = 32;
+//    if (temp2 > 30) {
+//        System.out.println("It's a hot day");
+//        System.out.println("Drink water");
+//        }
+//        else if(temp2 > 20)
+//            System.out.println("Beautiful day");
+//        else
+//            System.out.println("Cold day");//
+//    }
+
     public static void main(String[] args) {
-// ****** If Statements
-     int temp = 32;
-     if (temp > 30) {
-         System.out.println("It's a hot day");
-         System.out.println("Drink water");
-     } else if(temp > 20) {
-         System.out.println("Beautiful day");
-     } else {
-         System.out.println("Cold day");
-     }
+// ****** Simplifying If Statements
+//        int income = 120_000;
+//        boolean hasHighIncome = false;
+//        if (income > 100_000)
+//           hasHighIncome = true;
+//        System.out.println(hasHighIncome);
 
-    int temp2 = 32;
-    if (temp2 > 30) {
-        System.out.println("It's a hot day");
-        System.out.println("Drink water");
-        }
-        else if(temp2 > 20)
-            System.out.println("Beautiful day");
-        else
-            System.out.println("Cold day");
-
+        int income = 120_000;
+        boolean hasHighIncome = (income > 100_000);
+        System.out.println(hasHighIncome);
     }
-
-
 
 }
