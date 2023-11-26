@@ -232,20 +232,44 @@ public class Main {
 //            System.out.println(x != y);
 //    }
 
-    public static void main(String[] args) {
-// ****** Logical Operators
-        // *** Example 1
-//    int temperature = 22;
-//    int temperature = 12;
-//    boolean isWarm = temperature > 20 && temperature < 30;
-//        System.out.println(isWarm);
+//    public static void main(String[] args) {
+//// ****** Logical Operators
+//        // *** Example 1
+////    int temperature = 22;
+////    int temperature = 12;
+////    boolean isWarm = temperature > 20 && temperature < 30;
+////        System.out.println(isWarm);
+//
+////   ***   Example 2
+//        boolean hasHighIncome = false;
+//        boolean hasGoodCredit = true;
+//        boolean hasCriminalRecord = false;
+//        boolean isEligible  = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
+//        System.out.println(isEligible);
+//    }
 
-//   ***   Example 2
-        boolean hasHighIncome = false;
-        boolean hasGoodCredit = true;
-        boolean hasCriminalRecord = false;
-        boolean isEligible  = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
-        System.out.println(isEligible);
+    public static void main(String[] args) {
+// ****** If Statements
+     int temp = 32;
+     if (temp > 30) {
+         System.out.println("It's a hot day");
+         System.out.println("Drink water");
+     } else if(temp > 20) {
+         System.out.println("Beautiful day");
+     } else {
+         System.out.println("Cold day");
+     }
+
+    int temp2 = 32;
+    if (temp2 > 30) {
+        System.out.println("It's a hot day");
+        System.out.println("Drink water");
+        }
+        else if(temp2 > 20)
+            System.out.println("Beautiful day");
+        else
+            System.out.println("Cold day");
+
     }
 
 
